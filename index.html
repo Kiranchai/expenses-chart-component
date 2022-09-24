@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  
+</head>
+<body>
+  <main>
+    <div class="chart-component">
+      <section class="balance-section">
+        <div class="balance-amount-container">
+          <span>My balance</span>
+          <h2 class="balance-amount">$921.48</h2>
+        </div>
+        
+        <div class="logo-container">
+          <img src="./images/logo.svg" class="logo">
+        </div>
+  
+      </section>
+      
+      <section class="expenses-section">
+        <h2>Spending - Last 7 days</h2>
+  
+        <section>
+
+          <div class="chart-bars-container">
+            <div class="chart-bars">
+              <div class="bar" id="bar-mon"></div>
+              <div class="bar" id="bar-tue"></div>
+              <div class="bar" id="bar-wed"></div>
+              <div class="bar" id="bar-thu"></div>
+              <div class="bar" id="bar-fri"></div>
+              <div class="bar" id="bar-sat"></div>
+              <div class="bar" id="bar-sun"></div>
+            </div>
+            
+          </div>
+          <div class="days-container">
+            <span class="day">mon</span>
+            <span class="day">tue</span>
+            <span class="day">wed</span>
+            <span class="day">thu</span>
+            <span class="day">fri</span>
+            <span class="day">sat</span>
+            <span class="day">sun</span>
+          </div>
+
+          
+          
+        </section>
+        
+  
+        <!-- Total this month
+        $478.33
+  
+        +2.4%
+        from last month -->
+      </section>
+
+      <div id="on-hover-container">
+            
+      </div>
+    </div>
+    
+  </main>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
