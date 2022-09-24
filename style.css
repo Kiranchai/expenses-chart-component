@@ -74,6 +74,10 @@ main{
     border-radius: 1rem;
 }
 
+.expenses-header{
+    margin-right: 4rem;
+}
+
 .chart-bars-container{
     max-height: 8.33rem;
     display: flex;
@@ -97,7 +101,7 @@ main{
 .bar{
     height: 5px;
     background-color:var(--soft-red);
-    width: 2rem;
+    width: 1.5rem;
     border-radius: 0.25rem;
     transform:scaleY(-1);
     margin-top: 145px;
@@ -105,7 +109,7 @@ main{
 
 .day{
     text-align: center;
-    width: 2rem;
+    width: 1.5rem;
     font-size: 0.70rem;
     color: var(--cyan);
 }
@@ -127,3 +131,37 @@ main{
     height: 50px;
     margin-top: 100px;
 } */
+
+.total-container{
+    border-top: 2px solid var(--cream);
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-right{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: end;
+}
+
+.percentage-description{
+    font-size: 0.80rem;
+    color: var(--medium-brown);
+}
+
+.percentage{
+    font-weight: 700;
+    color: var(--dark-brown);
+}
+
+.total-description{
+    font-size: 0.80rem;
+    color: var(--medium-brown);
+}
+
+.total{
+    padding-top: 0.25rem;
+}
